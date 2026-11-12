@@ -1,0 +1,31 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        password: admin
+        username: admin
+        url: jdbc:postgresql://localhost:5437/library
+    application:
+        name: libraryJpaTesting
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+            ddl-auto: none
+        show-sql: true
+        open-in-view: false
+        properties:
+            hibernate:
+                format_sql: true
+        docker:
+            compose:
+                enabled: true
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 10MB
+
+app:
+    seed:
+        enabled: true
+        upload-url: http://localhost:8080/api/users
+        connect-timeout: 5s
+        read-timeout: 30s
