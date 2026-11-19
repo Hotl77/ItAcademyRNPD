@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "firstName": "Кирилл",
+      "lastName": "Никитин",
+      "middleName": "Андреевич",
+      "email": "kirill.nikitin@gmail.com",
+      "phoneNumber": "79162220001",
+      "libraryCardNumber": "200001",
+      "passportSeriesAndNumber": "4517 200001"
+    },
+    {
+      "firstName": "Анастасия",
+      "lastName": "Федорова",
+      "middleName": "Ильинична",
+      "email": "anastasia.fedorova@mail.ru",
+      "phoneNumber": "79162220002",
+      "libraryCardNumber": "200002",
+      "passportSeriesAndNumber": "4517 200002"
+    },
+    {
+      "firstName": "Владислав",
+      "lastName": "Комаров",
+      "middleName": "Денисович",
+      "email": "vladislav.komarov@gmail.com",
+      "phoneNumber": "79162220003",
+      "libraryCardNumber": "200003",
+      "passportSeriesAndNumber": "4517 200003"
+    },
+    {
+      "firstName": "Дарья",
+      "lastName": "Орлова",
+      "middleName": "Максимовна",
+      "email": "daria.orlova@mail.ru",
+      "phoneNumber": "79162220004",
+      "libraryCardNumber": "200004",
+      "passportSeriesAndNumber": "4517 200004"
+    },
+    {
+      "firstName": "Григорий",
+      "lastName": "Крылов",
+      "middleName": "Тимурович",
+      "email": "grigory.krylov@gmail.com",
+      "phoneNumber": "79162220005",
+      "libraryCardNumber": "200005",
+      "passportSeriesAndNumber": "4517 200005"
+    }
+  ]
+}
