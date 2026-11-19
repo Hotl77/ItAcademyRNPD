@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: restTemplateTesting
+
+
+app:
+  seed:
+    enabled: true
+    upload-url: http://localhost:8080/api/reciever
+    connect-timeout: 5s
+    read-timeout: 30s
+
+server:
+  port: 8081
