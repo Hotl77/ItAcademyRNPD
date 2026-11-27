@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ThreadsTesting
+
+
+server:
+  port: 8083
